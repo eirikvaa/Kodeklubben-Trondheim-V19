@@ -1,3 +1,7 @@
+"""
+Tema: Løkker
+"""
+
 # Oppgave 1 - enkel
 #
 # Lag en løkke som skriver ut 'Hei Verden!' tre ganger

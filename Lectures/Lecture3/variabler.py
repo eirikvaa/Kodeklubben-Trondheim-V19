@@ -1,3 +1,7 @@
+"""
+Tema: Variabler
+"""
+
 # Oppgave 1 - enkel
 #
 # Lag en variabel som heter "minVariabel" og sett den til å være et tall du kan velge selv.
