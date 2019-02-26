@@ -21,25 +21,57 @@ print(variabel1 + variabel2)
 """
 Tema: Funksjoner
 """
-
-
-# Oppgave 1 - middels
+# Oppgave 1 - Enkel
 #
-# Lag en funksjon som heter "siNoe" og som printer teksten "Hei, verden!"
-def si_noe():
-    print("Hei, verden!")
+# Lag en funksjon som heter "siNoe" som printer teksten "Hei, verden!"
+def siNoe():
+  print("Hei, verden!")
 
 
-# Oppgave 2 - vanskelig
+# Oppgave 2 - Enkel
+#
+# Lag en funksjon som heter "visTegn" som printer ut et valgritt tegn, - for eksempel: *, +, -, !, ., 
+def visTegn():
+  print("*")
+
+
+# Oppgave 3 - Middels
+#
+# Lag en funksjon som heter "hilsen" som gjør følgende:
+# 1. Lagrer navnet ditt i en variabel som heter "navn"
+# 2. Printer ut "Hei, <navnet ditt>"
+def hilsen():
+  navn = "Magnus"
+  print("Hei" + navn)
+
+
+# Oppgave 4 - Middels
+#
+# Lag en funksjon som heter "regnUt" som gjør følgende:
+# 1. Lagrer to tall i variabler. Kall de to variablene "tall1" og "tall1". Du bestemmer selv hvilke tall det skal være.
+# 2. Print ut tall1 og tall2 plusset sammen.
+def regnUt():
+  tall1 = 15
+  tall2 = 4
+  print(tall1 + tall2)
+
+
+# Oppgave 5 - vanskelig
 #
 # Lag først en funksjon som printer ut teksten "Hei, verden!". Lag deretter en løkke som går fra 0 til 10.
 # Kall funksjonen i løkken slik at "Hei, verden!" printes 10 ganger.
-def min_funksjon():
-    print("Hei, verden!")
-
+def hallo():
+  print("Hei, verden!")
 
 for i in range(10):
-    min_funksjon()
+  hallo()
+
+# Oppgave 6 - vanskelig
+#
+# Lag en funksjon som heter "siHei" og som 'tar inn' et navn. Print ut "Hei, <navn>". Ligner dette på en annen oppgave?
+def siHei(navn):
+  print("Hei," + navn)
+
 
 """
 Tema: Løkker
@@ -69,3 +101,5 @@ for i in range(3):
 #
 for i in range(10):
     print(i)
+
+
