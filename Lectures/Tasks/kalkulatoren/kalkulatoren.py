@@ -29,5 +29,5 @@
 # Hva med å lage en kalkulator hvor man bestemmer hvilken matematisk funksjon man vil at skal skje med de to tallene?
 # At man f.eks skriver A for å plusse, B for minus, C for gange og D for dele.
 
-# Endre programmet slik at vi har en tredje variabel kalt "regneoperasjon". Brukeren skal her skrive enten A, B, C eller D.
-# Sjekk (if-setning) så hva brukeren har skrevet inn, og kall funksjonen som passer med de to tallene.
+# Endre programmet slik at vi har en tredje variabel kalt "regneoperasjon". Brukeren skal her skrive enten A, B, C
+# eller D. Sjekk (if-setning) så hva brukeren har skrevet inn, og kall funksjonen som passer med de to tallene.
