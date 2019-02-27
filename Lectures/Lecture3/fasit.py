@@ -18,21 +18,37 @@ variabel1 = 10
 variabel2 = 20
 print(variabel1 + variabel2)
 
+# Oppgave 3 - vanskelig
+#
+# Lag en variabel som er en liste som inneholder tallene 1, 5 og 10.
+minListe = [1, 5, 10]
+
+# Oppgave 4 - vanskelig (bonus)
+#
+# Lag en variabel som er en liste som inneholder tekstene "Blåbær", "Jordbær" og "Tyttebær".
+# Lag en annen variabel som heter "mittFavorittBær" og sett den til å være det første elementet
+# i listen du laget. Vi henter ut en bestemt ting fra listen ved å skrive minListe[posisjon]
+# der posisjon er et tall. Husk at med lister i Python så teller vi fra 0.
+mineBær = ["Blåbær", "Jordbær", "Tyttebær"]
+mittFavorittBær = mineBær[0]
+
 """
 Tema: Funksjoner
 """
+
+
 # Oppgave 1 - Enkel
 #
 # Lag en funksjon som heter "siNoe" som printer teksten "Hei, verden!"
 def siNoe():
-  print("Hei, verden!")
+    print("Hei, verden!")
 
 
 # Oppgave 2 - Enkel
 #
 # Lag en funksjon som heter "visTegn" som printer ut et valgritt tegn, - for eksempel: *, +, -, !, ., 
 def visTegn():
-  print("*")
+    print("*")
 
 
 # Oppgave 3 - Middels
@@ -41,8 +57,8 @@ def visTegn():
 # 1. Lagrer navnet ditt i en variabel som heter "navn"
 # 2. Printer ut "Hei, <navnet ditt>"
 def hilsen():
-  navn = "Magnus"
-  print("Hei" + navn)
+    navn = "Magnus"
+    print("Hei" + navn)
 
 
 # Oppgave 4 - Middels
@@ -51,9 +67,9 @@ def hilsen():
 # 1. Lagrer to tall i variabler. Kall de to variablene "tall1" og "tall1". Du bestemmer selv hvilke tall det skal være.
 # 2. Print ut tall1 og tall2 plusset sammen.
 def regnUt():
-  tall1 = 15
-  tall2 = 4
-  print(tall1 + tall2)
+    tall1 = 15
+    tall2 = 4
+    print(tall1 + tall2)
 
 
 # Oppgave 5 - vanskelig
@@ -61,16 +77,18 @@ def regnUt():
 # Lag først en funksjon som printer ut teksten "Hei, verden!". Lag deretter en løkke som går fra 0 til 10.
 # Kall funksjonen i løkken slik at "Hei, verden!" printes 10 ganger.
 def hallo():
-  print("Hei, verden!")
+    print("Hei, verden!")
+
 
 for i in range(10):
-  hallo()
+    hallo()
+
 
 # Oppgave 6 - vanskelig
 #
 # Lag en funksjon som heter "siHei" og som 'tar inn' et navn. Print ut "Hei, <navn>". Ligner dette på en annen oppgave?
 def siHei(navn):
-  print("Hei," + navn)
+    print("Hei," + navn)
 
 
 """

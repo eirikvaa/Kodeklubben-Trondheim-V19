@@ -1,4 +1,5 @@
 import random
+
 """
 Tittel: Repetisjon og introduksjon av temaer
 """
@@ -49,22 +50,22 @@ Del 3: Løkker
 """
 
 # Løkker er veldig nyttig i programmering siden det lar oss maskinen selv gjøre ting om å om igjen, uten at vi selv 
-# trenger å skrive det mange ganger. Vi skiller mellom forskjellige løkker i programmering, men i dag vil vi fokusere på såkalte 
-# 'for-loops'
+# trenger å skrive det mange ganger. Vi skiller mellom forskjellige løkker i programmering,
+# men i dag vil vi fokusere på såkalte 'for-loops'
 
 # Vi kan skrive en for-løkke slik
 for i in range(10):
-  # Noe vi ønsker at skal repeteres
-  pass
+    # Noe vi ønsker at skal repeteres
+    pass
 
 # Det nye i kodesnutten over er ordet 'range'. I denne sammenhengen sier det rett og slett at vi skal gjøre noe et visst
 # antall ganger. I dette tilfellet vil loopen kjøre 10 ganger, fordi vi har spesifisert 10 inni range (som et parameter)
 
-# Hvis vi ønsker å skrive ut navnet vårt 5 ganger, kan dette både være tidkrevende og kjedelig. Hvis vi derimot bruker en loop
-# til å gjøre jobben, ser koden både mer avansert ut og man slipper mye ekstra arbeid
+# Hvis vi ønsker å skrive ut navnet vårt 5 ganger, kan dette både være tidkrevende og kjedelig.
+# Hvis vi derimot bruker en loop til å gjøre jobben, ser koden både mer avansert ut og man slipper mye ekstra arbeid
 
 for i in range(5):
-  print("Andreas")
+    print("Andreas")
 
 # Løkker viser seg også til å være nyttig når vi ønsker å printe ut elementer fra en liste. 
 # Sett at vi har en liste med navn
@@ -78,16 +79,16 @@ print(navn[2])
 # men det er mer effektivt å bruke en for loop til dette
 
 for i in navn:
-  print(i)
+    print(i)
 
 # Hvis vi ønsker å skrive ut en hilsen før hvert navn, kan vi også gjøre dette
 
 for i in navn:
-  print("Hei " + i) 
+    print("Hei " + i)
 
 # Vi kan altså bruke loops til mange forskjellige ting, for eksempel printe ut tallene fra 0 til 4
 for i in range(4):
-  print(i)
+    print(i)
 
 """
 Del 4: Funksjoner
@@ -101,33 +102,42 @@ print("Dette er en funksjon!")
 # Dette er en funksjon som lager et tilfeldig tall mellom 1 og 10.
 random.randint(1, 10)
 
+
 # Vi kan også skrive våre egne funksjoner, og de kan gjøre akkurat hva vi vil.
 # For å skrive en funksjon må vi huske på to ting.
 # 1. Vi må følge 'malen' for en funksjon: 'def funksjonsnavn():'
 # 2. Vi må huske å ha et 'innrykk' der vi skriver hva funksjonen skal gjøre.
 
 def siHei():
-  print("Hei!")
+    print("Hei!")
+
 
 # For å 'kjøre/bruke' funksjonen må vi skrive følgende:
 siHei()
 
-# Funksjoner brukes veldig ofte når det er ting man skal gjøre mange ganger, men som er kjedelig å skrive om igjen og om igjen.
-# Et eksempel på dette er hvis du skal printe tallene 1, 2, 3, 4 og 5 etter hverandre.
-def enTilFem():
-  print(1)
-  print(2)
-  print(3)
-  print(4)
-  print(5)
 
-# Her trenger jeg kun å skrive 6 linjer én gang, men hver gang jeg vil printe alle tallene trenger jeg kun å kjøre funksjonen med én linje:
+# Funksjoner brukes veldig ofte når det er ting man skal gjøre mange ganger,
+# men som er kjedelig å skrive om igjen og om igjen. Et eksempel på dette er hvis du skal printe
+# tallene 1, 2, 3, 4 og 5 etter hverandre.
+def enTilFem():
+    print(1)
+    print(2)
+    print(3)
+    print(4)
+    print(5)
+
+
+# Her trenger jeg kun å skrive 6 linjer én gang, men hver gang jeg vil printe alle tallene
+# trenger jeg kun å kjøre funksjonen med én linje:
 enTilFem()
 
-# En funksjon kan også 'ta inn' noe som kalles et 'parameter'. Hver gang man skal kjøre funksjonen kan man da "velge" hva som skal skje, - etter visse regler.
+
+# En funksjon kan også 'ta inn' noe som kalles et 'parameter'. Hver gang man skal
+# kjøre funksjonen kan man da "velge" hva som skal skje, - etter visse regler.
 # Denne funksjonen sier at vi skal 'ta inn' et tall, vi vet ikke hva det er, men samme det, vi printer det ut uansett.
 def printMittTall(talletMitt):
-  print(talletMitt)
+    print(talletMitt)
+
 
 printMittTall(5)
 printMittTall(21)
