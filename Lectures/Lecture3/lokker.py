@@ -12,13 +12,13 @@ Tema: Løkker
 # Lag en løkke som skriver ut 'Jeg liker kaffe!' to ganger og så 'Men jeg liker te! to ganger
 #
 
-# Oppgave 2 - middels
+# Oppgave 3 - middels
 #
 # Lag et program bestående av to løkker som først skriver ut 'Kaffe' tre ganger
 # og 'Te' 4 ganger
 #
 
-# Oppgave 2 - middels
+# Oppgave 4 - middels
 #
 # Lag først en liste som heter navn som består av noen valgfrie navn
 # Lag så en løkke som skriver ut navnene
@@ -26,17 +26,17 @@ Tema: Løkker
 # Hint: for i in navn:
 #
 
-# Oppgave 3 - vanskelig
+# Oppgave 5 - vanskelig
 #
 # Lag en løkke som skriver ut tallene fra 0-9
 #
 
-# Oppgave 3 - vanskelig
+# Oppgave 6 - vanskelig
 #
 # Lag en løkke som skriver ut tallene fra 1-10
 #
 
-# Oppgave 5 - ekstra vanskelig
+# Oppgave 7 - ekstra vanskelig
 #
 # Lag en løkke som skriver ut gangetabellen fra 1 til 10
 #
