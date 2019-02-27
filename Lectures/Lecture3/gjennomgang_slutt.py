@@ -48,6 +48,47 @@ print(min_liste)
 Del 3: Løkker
 """
 
+# Løkker er veldig nyttig i programmering siden det lar oss maskinen selv gjøre ting om å om igjen, uten at vi selv 
+# trenger å skrive det mange ganger. Vi skiller mellom forskjellige løkker i programmering, men i dag vil vi fokusere på såkalte 
+# 'for-loops'
+
+# Vi kan skrive en for-løkke slik
+for i in range(10):
+  # Noe vi ønsker at skal repeteres
+  pass
+
+# Det nye i kodesnutten over er ordet 'range'. I denne sammenhengen sier det rett og slett at vi skal gjøre noe et visst
+# antall ganger. I dette tilfellet vil loopen kjøre 10 ganger, fordi vi har spesifisert 10 inni range (som et parameter)
+
+# Hvis vi ønsker å skrive ut navnet vårt 5 ganger, kan dette både være tidkrevende og kjedelig. Hvis vi derimot bruker en loop
+# til å gjøre jobben, ser koden både mer avansert ut og man slipper mye ekstra arbeid
+
+for i in range(5):
+  print("Andreas")
+
+# Løkker viser seg også til å være nyttig når vi ønsker å printe ut elementer fra en liste. 
+# Sett at vi har en liste med navn
+navn = ["Andreas", "Eirik", "Magnus"]
+
+# Vi kan godt printe ut navnene hver for seg slik
+print(navn[0])
+print(navn[1])
+print(navn[2])
+
+# men det er mer effektivt å bruke en for loop til dette
+
+for i in navn:
+  print(i)
+
+# Hvis vi ønsker å skrive ut en hilsen før hvert navn, kan vi også gjøre dette
+
+for i in navn:
+  print("Hei " + i) 
+
+# Vi kan altså bruke loops til mange forskjellige ting, for eksempel printe ut tallene fra 0 til 4
+for i in range(4):
+  print(i)
+
 """
 Del 4: Funksjoner
 """
