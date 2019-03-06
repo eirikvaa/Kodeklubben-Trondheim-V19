@@ -47,3 +47,115 @@ print(summen)
 tall = [2, 4, 6, 8, 10]
 for i in range(5):
     print(tall[i])
+
+"""
+Tema: if-setninger
+"""
+
+# Oppgave 1 - enkel
+#
+# Lag en variabel som heter 'tall' og at den skal lagre tallet 2.
+# Lag en if-setninger som spør om 'tall'-variabelen er større enn 0.
+# Hvis dette er sant, print ut teksten "Tallet er større enn 0".
+tall = 2
+if tall > 0:
+    print("Tallet er større enn 0.")
+
+# Oppgave 2 - middels
+#
+# Lag en variabel som heter 'antall_dyr_jeg_eier' som inneholder antall kjæledyr du eier.
+# Lag en if-setning som spør om 'antall_dyr_jeg_eier' er større enn 5.
+# Hvis dette er sant, print ut teksten "Wow, du eier mange kjæledyr!"
+# Hvis dette ikke er sant, print ut teksten "Du eier færre enn 6 dyr."
+antall_dyr_jeg_eier = 1
+if antall_dyr_jeg_eier > 5:
+    print("Wow, du eier mange dyr!")
+else:
+    print("Du eier færre enn 6 dyr!")
+
+# Oppgave 3 - middels
+#
+# Lag en variabel som heter 'mittNavn' og som lagrer navnet ditt som en tekst,
+# for eksempel "Eirik".
+# Lag en if-setninger som sjekker om variabelen 'mittNavn' er lik teksten "Ola".
+# Hvis dette er sant, print ut "Hei, Ola!" innenfor if.
+# Hvis dette ikke er sant, print ut "Ops, feil person!" innenfor else.
+mittNavn = "Eirik"
+if mittNavn == "Ola":
+    print("Hei, Ola!")
+else:
+    print("Ops, feil person!")
+
+# Oppgave 4 - vanskelig
+#
+# Lag en variabel som heter 'tall1' og som lagrer verdien 10.
+# Lag en annen variabel som heter 'tall2' og som lagrer verdien 30.
+# Lag en tredje variabel som heter 'summen' og som plusser sammen 'tall1' og 'tall2'.
+# Lag en if-setning som sjekker om 'summen' er større enn 50.
+# Hvis dette er sant, print ut "Summen er 50"
+# Hvis dette er ikke sant, print ut "Summen er ikke 50".
+tall1 = 10
+tall2 = 30
+summen = tall1 + tall2
+if summen == 50:
+    print("Summen er 50")
+else:
+    print("Summen er ikke 50")
+
+"""
+Tema: Funksjoner
+"""
+
+
+# Oppgave 1 - Enkel
+#
+# Lag en funksjon som heter "siNoe" som printer teksten "Hei, verden!"
+def siNoe():
+    print("Hei, verden!")
+
+
+# Oppgave 2 - Enkel
+#
+# Lag en funksjon som heter "visTegn" som printer ut et valgritt tegn, - for eksempel: *, +, -, !, .,
+def visTegn():
+    print("*")
+
+
+# Oppgave 3 - Middels
+#
+# Lag en funksjon som heter "hilsen" som gjør følgende:
+# 1. Lagrer navnet ditt i en variabel som heter "navn"
+# 2. Printer ut "Hei, <navnet ditt>"
+def hilsen():
+    navn = "Magnus"
+    print("Hei" + navn)
+
+
+# Oppgave 4 - Middels
+#
+# Lag en funksjon som heter "regnUt" som gjør følgende:
+# 1. Lagrer to tall i variabler. Kall de to variablene "tall1" og "tall1". Du bestemmer selv hvilke tall det skal være.
+# 2. Print ut tall1 og tall2 plusset sammen.
+def regnUt():
+    tall1 = 15
+    tall2 = 4
+    print(tall1 + tall2)
+
+
+# Oppgave 5 - vanskelig
+#
+# Lag først en funksjon som printer ut teksten "Hei, verden!". Lag deretter en løkke som går fra 0 til 10.
+# Kall funksjonen i løkken slik at "Hei, verden!" printes 10 ganger.
+def hallo():
+    print("Hei, verden!")
+
+
+for i in range(10):
+    hallo()
+
+
+# Oppgave 6 - vanskelig
+#
+# Lag en funksjon som heter "siHei" og som 'tar inn' et navn. Print ut "Hei, <navn>". Ligner dette på en annen oppgave?
+def siHei(navn):
+    print("Hei," + navn)
