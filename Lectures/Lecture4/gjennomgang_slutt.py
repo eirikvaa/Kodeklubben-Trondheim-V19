@@ -41,6 +41,29 @@ minListe = [1, 2, 3]
 Del 3: if-setninger
 """
 
+# Når vi koder kan det være veldig nytt å sjekke om for eksempel en variabel er et spesifikt tall,
+# eller om et navn er lik "Andreas". Dette kan gjøres med såkalte 'if-setninger'. 
+
+alder = 10
+if alder == 10:
+    print("Du er 10 år gammel")
+
+navn = "Andreas"
+if navn == "Andreas":
+    print("Hei Andreas!")
+
+# Sjekke om du er gammel nok
+alder = 13
+if alder > 12:
+    print("Du er gammel nok")
+
+# Vi kan gjøre dette litt mer komplisert
+alder = 11
+if alder > 12:
+    print("Du er gammel nok")
+else:
+    print("Du er ikke gammel nok")
+
 """
 Del 4: Funksjoner
 """

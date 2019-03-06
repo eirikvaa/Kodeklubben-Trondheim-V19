@@ -11,7 +11,7 @@ Del 2: Variabler
 """
 
 """
-Del 3: LÃ¸kker
+Del 3: Løkker
 """
 
 """
