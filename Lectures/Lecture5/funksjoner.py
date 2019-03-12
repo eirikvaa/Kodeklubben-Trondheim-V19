@@ -1,16 +1,30 @@
 """
 Tema: Funksjoner
 """
-
 # Oppgave 1
 #
-# Lag en funksjon tegnSirkel som tegner en sirkel med radius 10.
+# Lag en funksjon som heter "siNoe" som printer teksten "Hei, verden!"
 
 # Oppgave 2
 #
-# Lag en funksjon som tar inn radius som parameter.
+# Lag en funksjon som heter "hilsen" som gjør følgende:
+# 1. Lagrer navnet ditt i en variabel som heter "navn"
+# 2. Printer ut "Hei, <navnet ditt>"
 
 # Oppgave 3
+#
+# Lag først en funksjon som printer ut teksten "Hei, verden!". Lag deretter en løkke som går fra 0 til 10.
+# Kall funksjonen i løkken slik at "Hei, verden!" printes 10 ganger.
+
+# Oppgave 4
+#
+# Lag en funksjon tegnSirkel som tegner en sirkel med radius 10.
+
+# Oppgave 5
+#
+# Lag en funksjon som tar inn radius som parameter og så tegner en sirkel med denne radiusen.
+
+# Oppgave 6
 #
 # Lag en funksjon tegnSirkler som tar inn antall sirkler som skal tegnes som et
 # parameter og radius for hver sirkel.
@@ -18,7 +32,12 @@ Tema: Funksjoner
 # (parameteret) som du skrev i stad. Når en sirkel er tegnet så flytt pennen opp
 # (penup) og flytt den litt bort fra den andre sirkelen så du kan se begge.
 
-# Oppgave 4
+
+
+
+
+# ------------ Ekstra / Neste gang ------------ #
+# Oppgave 7
 #
 # Lag en funksjon tegnFormer.
 # Lag en løkke inne i funksjon som går fra 0 til 10.
